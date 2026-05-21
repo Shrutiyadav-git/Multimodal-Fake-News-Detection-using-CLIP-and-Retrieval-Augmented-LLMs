@@ -12,6 +12,13 @@ The final binary and multi-class predictions are produced using a multimodal fus
 
 This fusion-based architecture enables the model to leverage both semantic reasoning and multimodal feature learning for more reliable fake news classification.
 
+## My Contributions
+- Implemented BLIP-based image caption generation for converting visual inputs into textual descriptions.
+- Developed the Retrieval-Augmented Generation (RAG) pipeline for external evidence retrieval using NewsAPI and Wikipedia APIs.
+- Integrated Gemini LLM for contextual reasoning, justification generation, and confidence-aware outputs.
+- Implemented semantic evidence filtering using Sentence Transformers and cosine similarity.
+- Designed robust API handling with retry logic and rate-limit management for stable inference workflows.
+
 ## Key Features
 - Multimodal fake news detection using text and images
 - BLIP-based image caption generation
